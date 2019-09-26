@@ -284,3 +284,16 @@ Hides the menu at `48em`, but modify this based on your app's needs.
 .mr-1  {
     margin-right: 1px;
 }
+
+.mt-5  {
+    margin-top:  5px;
+}
+.ml-5  {
+    margin-left:  5px;
+}
+.mb-5  {
+    margin-bottom:  5px;
+}
+.mr-5  {
+    margin-right: 5px;
+}

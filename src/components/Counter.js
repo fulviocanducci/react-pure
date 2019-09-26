@@ -22,9 +22,9 @@ export default function Counter(props) {
         <>
             <h1>Count: {count} </h1>
             <div>
-                <button className="pure-button mr-1 active" onClick={_ => operation('#')}>Reset</button> 
-                <button className="pure-button pure-button-primary mr-1" onClick={_ => operation('+')}>+</button> 
-                <button className="button-error pure-button mr-1" onClick={_ => operation('-')}>-</button>
+                <button className="pure-button mr-5 active" onClick={_ => operation('#')}>Reset</button> 
+                <button className="pure-button pure-button-primary mr-5" onClick={_ => operation('+')}>+</button> 
+                <button className="button-error pure-button mr-5" onClick={_ => operation('-')}>-</button>
             </div>
         </>
     )
